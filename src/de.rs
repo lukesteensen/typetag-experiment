@@ -1,4 +1,4 @@
-use crate::private::{DeserializeFn, Registry};
+use crate::{DeserializeFn, Registry};
 use core::fmt;
 use serde::de::{self, DeserializeSeed, Deserializer, Expected, Visitor};
 
